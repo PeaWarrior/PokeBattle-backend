@@ -3,4 +3,3 @@ class TeamPokemonSerializer < ActiveModel::Serializer
     has_one :pokemon
     has_many :moves
 end
-  
