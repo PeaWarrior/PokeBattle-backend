@@ -5,7 +5,7 @@ class UsersController < ApplicationController
         user = User.create(user_params)
         if user.valid?
             token = encode_token({ user_id: user.id })
-            render json: { user: UserSerializer.new(user), token: token} , status: :created
+            render json: { user: UserSerializer.new(user), token: token } , status: :created
         else
             render json: { error: user.errors.full_messages }, status: :bad_request
         end
@@ -16,14 +16,14 @@ class UsersController < ApplicationController
 
         if user && user.authenticate(user_params[:password])
             token = encode_token({ user_id: user.id })
-            render json: { user: UserSerializer.new(user), token: token}
+            render json: { user: UserSerializer.new(user), token: token}, include: '**'
         else
             render json: { error: "Invalid username or password" }, status: :unauthorized
         end
     end
 
     def autologin
-        render json: @current_user
+        render json: { user: UserSerializer.new(@current_user) }, include: '**', status: :created
     end
 
     private
