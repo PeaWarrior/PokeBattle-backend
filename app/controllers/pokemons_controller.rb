@@ -1,4 +1,5 @@
-class UsersController < ApplicationController
+class PokemonsController < ApplicationController
+    skip_before_action :authenticate, only: [:index]
 
     def index
         pokemons = Pokemon.all
