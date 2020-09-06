@@ -3,5 +3,8 @@ Rails.application.routes.draw do
   post '/login', to: 'users#login'
   get '/autologin', to: 'users#autologin'
   get '/pokemons', to: 'pokemons#index'
+  get '/teams', to: 'teams#index'
+  post '/teams', to: 'teams#create'
+  delete '/teams/:id', to: 'teams#delete'
   # For details on the DSL available within this file, see https://guides.rubyonrails.org/routing.html
 end
