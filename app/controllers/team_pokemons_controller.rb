@@ -4,6 +4,7 @@ class TeamPokemonsController < ApplicationController
         team = @current_user.teams.find(team_pokemon_params[:team_id])
         if team 
             team_pokemon = team.team_pokemons.create(team_pokemon_params)
+            team_pokemon.getMoves()
             render json: { team_pokemon: TeamPokemonSerializer.new(team_pokemon) }, include: '**'
         else
             render json: { error: "Unable to create pokemon" }, status: :unauthorized
