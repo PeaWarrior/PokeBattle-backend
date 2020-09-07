@@ -1,7 +1,7 @@
 class TeamPokemon < ApplicationRecord
   belongs_to :team
   belongs_to :pokemon
-  has_many :team_pokemon_moves
+  has_many :team_pokemon_moves, dependent: :destroy
   has_many :moves, through: :team_pokemon_moves
 
   validates :nickname, presence: true
@@ -13,6 +13,6 @@ class TeamPokemon < ApplicationRecord
       team_pokemon_move = Move.find_by(name: move)
       self.moves << team_pokemon_move
     end
-    
+
   end
 end
