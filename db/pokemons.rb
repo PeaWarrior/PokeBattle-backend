@@ -134,7 +134,6 @@ POKEMONS = [
         "ember",
         "flamethrower",
         "submission",
-        "seismic-toss",
         "strength",
         "fire-spin",
         "fire-blast",
@@ -176,7 +175,6 @@ POKEMONS = [
         "ember",
         "flamethrower",
         "submission",
-        "seismic-toss",
         "strength",
         "fire-spin",
         "fire-blast",
@@ -220,7 +218,6 @@ POKEMONS = [
         "ember",
         "flamethrower",
         "submission",
-        "seismic-toss",
         "strength",
         "fire-spin",
         "earthquake",
@@ -267,7 +264,6 @@ POKEMONS = [
         "blizzard",
         "bubble-beam",
         "submission",
-        "seismic-toss",
         "strength",
         "waterfall",
         "skull-bash",
@@ -309,7 +305,6 @@ POKEMONS = [
         "blizzard",
         "bubble-beam",
         "submission",
-        "seismic-toss",
         "strength",
         "waterfall",
         "skull-bash",
@@ -351,7 +346,6 @@ POKEMONS = [
         "blizzard",
         "bubble-beam",
         "submission",
-        "seismic-toss",
         "strength",
         "earthquake",
         "fissure",
@@ -431,8 +425,7 @@ POKEMONS = [
         "psybeam",
         "mega-drain",
         "psychic",
-        "swift",
-        "psywave"
+        "swift"
       ]
     },
     {
@@ -838,7 +831,6 @@ POKEMONS = [
         "take-down",
         "surf",
         "submission",
-        "seismic-toss",
         "strength",
         "thunder-shock",
         "thunderbolt",
@@ -876,7 +868,6 @@ POKEMONS = [
         "body-slam",
         "take-down",
         "submission",
-        "seismic-toss",
         "strength",
         "thunder-shock",
         "thunderbolt",
@@ -913,7 +904,6 @@ POKEMONS = [
         "take-down",
         "poison-sting",
         "submission",
-        "seismic-toss",
         "strength",
         "earthquake",
         "fissure",
@@ -951,7 +941,6 @@ POKEMONS = [
         "take-down",
         "poison-sting",
         "submission",
-        "seismic-toss",
         "strength",
         "earthquake",
         "fissure",
@@ -1082,7 +1071,6 @@ POKEMONS = [
         "blizzard",
         "bubble-beam",
         "submission",
-        "seismic-toss",
         "strength",
         "thunderbolt",
         "thunder",
@@ -1215,7 +1203,6 @@ POKEMONS = [
         "bubble-beam",
         "peck",
         "submission",
-        "seismic-toss",
         "strength",
         "thunderbolt",
         "thunder",
@@ -1262,14 +1249,12 @@ POKEMONS = [
         "blizzard",
         "bubble-beam",
         "submission",
-        "seismic-toss",
         "strength",
         "thunderbolt",
         "thunder",
         "psychic",
         "fire-blast",
         "skull-bash",
-        "psywave",
         "tri-attack"
       ]
     },
@@ -1308,14 +1293,12 @@ POKEMONS = [
         "blizzard",
         "bubble-beam",
         "submission",
-        "seismic-toss",
         "strength",
         "thunderbolt",
         "thunder",
         "psychic",
         "fire-blast",
         "skull-bash",
-        "psywave",
         "tri-attack"
       ]
     },
@@ -1419,14 +1402,12 @@ POKEMONS = [
         "blizzard",
         "bubble-beam",
         "submission",
-        "seismic-toss",
         "strength",
         "thunderbolt",
         "thunder",
         "psychic",
         "fire-blast",
         "skull-bash",
-        "psywave",
         "tri-attack"
       ]
     },
@@ -1465,14 +1446,12 @@ POKEMONS = [
         "blizzard",
         "bubble-beam",
         "submission",
-        "seismic-toss",
         "strength",
         "thunderbolt",
         "thunder",
         "psychic",
         "fire-blast",
         "skull-bash",
-        "psywave",
         "tri-attack"
       ]
     },
@@ -1716,8 +1695,7 @@ POKEMONS = [
         "mega-drain",
         "psychic",
         "swift",
-        "leech-life",
-        "psywave"
+        "leech-life"
       ]
     },
     {
@@ -1748,8 +1726,7 @@ POKEMONS = [
         "mega-drain",
         "psychic",
         "swift",
-        "leech-life",
-        "psywave"
+        "leech-life"
       ]
     },
     {
@@ -1926,7 +1903,6 @@ POKEMONS = [
         "psybeam",
         "bubble-beam",
         "submission",
-        "seismic-toss",
         "strength",
         "psychic",
         "waterfall",
@@ -1970,8 +1946,6 @@ POKEMONS = [
         "blizzard",
         "bubble-beam",
         "submission",
-        "low-kick",
-        "seismic-toss",
         "strength",
         "psychic",
         "waterfall",
@@ -2013,8 +1987,6 @@ POKEMONS = [
         "take-down",
         "thrash",
         "submission",
-        "low-kick",
-        "seismic-toss",
         "strength",
         "thunderbolt",
         "thunder",
@@ -2058,8 +2030,6 @@ POKEMONS = [
         "take-down",
         "thrash",
         "submission",
-        "low-kick",
-        "seismic-toss",
         "strength",
         "thunderbolt",
         "thunder",
@@ -2170,8 +2140,7 @@ POKEMONS = [
         "psychic",
         "waterfall",
         "skull-bash",
-        "bubble",
-        "psywave"
+        "bubble"
       ]
     },
     {
@@ -2208,15 +2177,13 @@ POKEMONS = [
         "blizzard",
         "bubble-beam",
         "submission",
-        "seismic-toss",
         "strength",
         "earthquake",
         "fissure",
         "psychic",
         "waterfall",
         "skull-bash",
-        "bubble",
-        "psywave"
+        "bubble"
       ]
     },
     {
@@ -2253,14 +2220,12 @@ POKEMONS = [
         "blizzard",
         "bubble-beam",
         "submission",
-        "seismic-toss",
         "strength",
         "earthquake",
         "fissure",
         "psychic",
         "waterfall",
         "skull-bash",
-        "psywave",
         "rock-slide"
       ]
     },
@@ -2293,10 +2258,8 @@ POKEMONS = [
         "body-slam",
         "take-down",
         "submission",
-        "seismic-toss",
         "psychic",
         "skull-bash",
-        "psywave",
         "tri-attack"
       ]
     },
@@ -2330,10 +2293,8 @@ POKEMONS = [
         "take-down",
         "psybeam",
         "submission",
-        "seismic-toss",
         "psychic",
         "skull-bash",
-        "psywave",
         "tri-attack"
       ]
     },
@@ -2367,10 +2328,8 @@ POKEMONS = [
         "take-down",
         "psybeam",
         "submission",
-        "seismic-toss",
         "psychic",
         "skull-bash",
-        "psywave",
         "tri-attack"
       ]
     },
@@ -2406,8 +2365,6 @@ POKEMONS = [
         "take-down",
         "flamethrower",
         "submission",
-        "low-kick",
-        "seismic-toss",
         "strength",
         "earthquake",
         "fissure",
@@ -2447,8 +2404,6 @@ POKEMONS = [
         "take-down",
         "flamethrower",
         "submission",
-        "low-kick",
-        "seismic-toss",
         "strength",
         "earthquake",
         "fissure",
@@ -2488,8 +2443,6 @@ POKEMONS = [
         "take-down",
         "flamethrower",
         "submission",
-        "low-kick",
-        "seismic-toss",
         "strength",
         "earthquake",
         "fissure",
@@ -2705,7 +2658,6 @@ POKEMONS = [
         "take-down",
         "flamethrower",
         "submission",
-        "seismic-toss",
         "strength",
         "rock-throw",
         "earthquake",
@@ -2744,7 +2696,6 @@ POKEMONS = [
         "take-down",
         "flamethrower",
         "submission",
-        "seismic-toss",
         "strength",
         "rock-throw",
         "earthquake",
@@ -2784,7 +2735,6 @@ POKEMONS = [
         "take-down",
         "flamethrower",
         "submission",
-        "seismic-toss",
         "strength",
         "rock-throw",
         "earthquake",
@@ -2822,7 +2772,6 @@ POKEMONS = [
         "thrash",
         "ember",
         "flamethrower",
-        "low-kick",
         "strength",
         "fire-spin",
         "quick-attack",
@@ -2859,7 +2808,6 @@ POKEMONS = [
         "take-down",
         "ember",
         "flamethrower",
-        "low-kick",
         "strength",
         "fire-spin",
         "quick-attack",
@@ -2908,7 +2856,6 @@ POKEMONS = [
         "fire-blast",
         "swift",
         "skull-bash",
-        "psywave",
         "tri-attack"
       ]
     },
@@ -2948,7 +2895,6 @@ POKEMONS = [
         "blizzard",
         "bubble-beam",
         "submission",
-        "seismic-toss",
         "strength",
         "earthquake",
         "fissure",
@@ -2956,7 +2902,6 @@ POKEMONS = [
         "fire-blast",
         "swift",
         "skull-bash",
-        "psywave",
         "tri-attack"
       ]
     },
@@ -3365,8 +3310,7 @@ POKEMONS = [
         "thunder",
         "psychic",
         "lick",
-        "smog",
-        "psywave"
+        "smog"
       ]
     },
     {
@@ -3397,8 +3341,7 @@ POKEMONS = [
         "thunderbolt",
         "thunder",
         "psychic",
-        "lick",
-        "psywave"
+        "lick"
       ]
     },
     {
@@ -3431,15 +3374,13 @@ POKEMONS = [
         "body-slam",
         "take-down",
         "submission",
-        "seismic-toss",
         "strength",
         "mega-drain",
         "thunderbolt",
         "thunder",
         "psychic",
         "lick",
-        "skull-bash",
-        "psywave"
+        "skull-bash"
       ]
     },
     {
@@ -3508,11 +3449,8 @@ POKEMONS = [
         "take-down",
         "psybeam",
         "submission",
-        "low-kick",
-        "seismic-toss",
         "psychic",
         "skull-bash",
-        "psywave",
         "tri-attack"
       ]
     },
@@ -3547,11 +3485,8 @@ POKEMONS = [
         "take-down",
         "psybeam",
         "submission",
-        "low-kick",
-        "seismic-toss",
         "psychic",
         "skull-bash",
-        "psywave",
         "tri-attack"
       ]
     },
@@ -3714,8 +3649,7 @@ POKEMONS = [
         "mega-drain",
         "psychic",
         "egg-bomb",
-        "barrage",
-        "psywave"
+        "barrage"
       ]
     },
     {
@@ -3742,13 +3676,11 @@ POKEMONS = [
         "stomp",
         "headbutt",
         "take-down",
-        "low-kick",
         "strength",
         "mega-drain",
         "psychic",
         "egg-bomb",
-        "barrage",
-        "psywave"
+        "barrage"
       ]
     },
     {
@@ -3786,8 +3718,6 @@ POKEMONS = [
         "blizzard",
         "bubble-beam",
         "submission",
-        "low-kick",
-        "seismic-toss",
         "strength",
         "earthquake",
         "fissure",
@@ -3832,8 +3762,6 @@ POKEMONS = [
         "blizzard",
         "bubble-beam",
         "submission",
-        "low-kick",
-        "seismic-toss",
         "strength",
         "earthquake",
         "fissure",
@@ -3873,8 +3801,6 @@ POKEMONS = [
         "body-slam",
         "take-down",
         "submission",
-        "low-kick",
-        "seismic-toss",
         "strength",
         "earthquake",
         "swift",
@@ -3913,8 +3839,6 @@ POKEMONS = [
         "body-slam",
         "take-down",
         "submission",
-        "low-kick",
-        "seismic-toss",
         "strength",
         "earthquake",
         "swift",
@@ -3963,7 +3887,6 @@ POKEMONS = [
         "blizzard",
         "bubble-beam",
         "submission",
-        "seismic-toss",
         "strength",
         "thunderbolt",
         "thunder",
@@ -4002,8 +3925,7 @@ POKEMONS = [
         "thunder",
         "smog",
         "sludge",
-        "fire-blast",
-        "psywave"
+        "fire-blast"
       ]
     },
     {
@@ -4117,7 +4039,6 @@ POKEMONS = [
         "blizzard",
         "bubble-beam",
         "submission",
-        "seismic-toss",
         "strength",
         "thunderbolt",
         "thunder",
@@ -4164,7 +4085,6 @@ POKEMONS = [
         "blizzard",
         "bubble-beam",
         "submission",
-        "seismic-toss",
         "strength",
         "thunderbolt",
         "thunder",
@@ -4173,7 +4093,6 @@ POKEMONS = [
         "egg-bomb",
         "fire-blast",
         "skull-bash",
-        "psywave",
         "rock-slide",
         "tri-attack"
       ]
@@ -4250,8 +4169,6 @@ POKEMONS = [
         "blizzard",
         "bubble-beam",
         "submission",
-        "low-kick",
-        "seismic-toss",
         "strength",
         "thunderbolt",
         "thunder",
@@ -4438,7 +4355,6 @@ POKEMONS = [
         "waterfall",
         "swift",
         "skull-bash",
-        "psywave",
         "tri-attack"
       ]
     },
@@ -4477,7 +4393,6 @@ POKEMONS = [
         "waterfall",
         "swift",
         "skull-bash",
-        "psywave",
         "tri-attack"
       ]
     },
@@ -4513,12 +4428,10 @@ POKEMONS = [
         "take-down",
         "psybeam",
         "submission",
-        "seismic-toss",
         "thunderbolt",
         "thunder",
         "psychic",
-        "skull-bash",
-        "psywave"
+        "skull-bash"
       ]
     },
     {
@@ -4587,12 +4500,10 @@ POKEMONS = [
         "blizzard",
         "bubble-beam",
         "submission",
-        "seismic-toss",
         "psychic",
         "lick",
         "skull-bash",
-        "lovely-kiss",
-        "psywave"
+        "lovely-kiss"
       ]
     },
     {
@@ -4624,8 +4535,6 @@ POKEMONS = [
         "body-slam",
         "take-down",
         "submission",
-        "low-kick",
-        "seismic-toss",
         "strength",
         "thunder-shock",
         "thunderbolt",
@@ -4633,8 +4542,7 @@ POKEMONS = [
         "psychic",
         "quick-attack",
         "swift",
-        "skull-bash",
-        "psywave"
+        "skull-bash"
       ]
     },
     {
@@ -4667,15 +4575,12 @@ POKEMONS = [
         "ember",
         "flamethrower",
         "submission",
-        "low-kick",
-        "seismic-toss",
         "strength",
         "fire-spin",
         "psychic",
         "smog",
         "fire-blast",
-        "skull-bash",
-        "psywave"
+        "skull-bash"
       ]
     },
     {
@@ -4707,7 +4612,6 @@ POKEMONS = [
         "take-down",
         "thrash",
         "submission",
-        "seismic-toss",
         "strength",
         "earthquake",
         "quick-attack",
@@ -4859,8 +4763,7 @@ POKEMONS = [
         "fissure",
         "psychic",
         "waterfall",
-        "skull-bash",
-        "psywave"
+        "skull-bash"
       ]
     },
     {
@@ -5054,8 +4957,6 @@ POKEMONS = [
         "psychic",
         "swift",
         "skull-bash",
-        "psywave",
-        "sharpen",
         "tri-attack"
       ]
     },
@@ -5134,7 +5035,6 @@ POKEMONS = [
         "blizzard",
         "bubble-beam",
         "submission",
-        "seismic-toss",
         "waterfall",
         "skull-bash",
         "spike-cannon",
@@ -5214,8 +5114,6 @@ POKEMONS = [
         "blizzard",
         "bubble-beam",
         "submission",
-        "low-kick",
-        "seismic-toss",
         "absorb",
         "mega-drain",
         "waterfall",
@@ -5294,7 +5192,6 @@ POKEMONS = [
         "blizzard",
         "bubble-beam",
         "submission",
-        "seismic-toss",
         "strength",
         "thunderbolt",
         "thunder",
@@ -5304,7 +5201,6 @@ POKEMONS = [
         "lick",
         "fire-blast",
         "skull-bash",
-        "psywave",
         "rock-slide"
       ]
     },
@@ -5564,8 +5460,6 @@ POKEMONS = [
         "blizzard",
         "bubble-beam",
         "submission",
-        "low-kick",
-        "seismic-toss",
         "strength",
         "thunderbolt",
         "thunder",
@@ -5574,7 +5468,6 @@ POKEMONS = [
         "fire-blast",
         "swift",
         "skull-bash",
-        "psywave",
         "rock-slide",
         "tri-attack"
       ]
@@ -5618,8 +5511,6 @@ POKEMONS = [
         "blizzard",
         "bubble-beam",
         "submission",
-        "low-kick",
-        "seismic-toss",
         "strength",
         "mega-drain",
         "thunderbolt",
@@ -5633,7 +5524,6 @@ POKEMONS = [
         "swift",
         "skull-bash",
         "leech-life",
-        "psywave",
         "rock-slide",
         "tri-attack"
       ]
