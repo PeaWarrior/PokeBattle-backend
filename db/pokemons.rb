@@ -221,7 +221,6 @@ POKEMONS = [
         "strength",
         "fire-spin",
         "earthquake",
-        "fissure",
         "fire-blast",
         "swift",
         "skull-bash",
@@ -348,7 +347,6 @@ POKEMONS = [
         "submission",
         "strength",
         "earthquake",
-        "fissure",
         "waterfall",
         "skull-bash",
         "bubble",
@@ -760,7 +758,6 @@ POKEMONS = [
         "strength",
         "mega-drain",
         "earthquake",
-        "fissure",
         "skull-bash",
         "rock-slide"
       ]
@@ -796,7 +793,6 @@ POKEMONS = [
         "strength",
         "mega-drain",
         "earthquake",
-        "fissure",
         "skull-bash",
         "rock-slide"
       ]
@@ -906,7 +902,6 @@ POKEMONS = [
         "submission",
         "strength",
         "earthquake",
-        "fissure",
         "swift",
         "skull-bash",
         "fury-swipes",
@@ -943,7 +938,6 @@ POKEMONS = [
         "submission",
         "strength",
         "earthquake",
-        "fissure",
         "swift",
         "skull-bash",
         "fury-swipes",
@@ -1075,7 +1069,6 @@ POKEMONS = [
         "thunderbolt",
         "thunder",
         "earthquake",
-        "fissure",
         "fire-blast",
         "skull-bash",
         "rock-slide"
@@ -1207,7 +1200,6 @@ POKEMONS = [
         "thunderbolt",
         "thunder",
         "earthquake",
-        "fissure",
         "fire-blast",
         "skull-bash",
         "rock-slide"
@@ -1755,7 +1747,6 @@ POKEMONS = [
         "body-slam",
         "take-down",
         "earthquake",
-        "fissure",
         "fury-swipes",
         "rock-slide",
         "slash"
@@ -1786,7 +1777,6 @@ POKEMONS = [
         "body-slam",
         "take-down",
         "earthquake",
-        "fissure",
         "fury-swipes",
         "rock-slide",
         "tri-attack",
@@ -2179,7 +2169,6 @@ POKEMONS = [
         "submission",
         "strength",
         "earthquake",
-        "fissure",
         "psychic",
         "waterfall",
         "skull-bash",
@@ -2222,7 +2211,6 @@ POKEMONS = [
         "submission",
         "strength",
         "earthquake",
-        "fissure",
         "psychic",
         "waterfall",
         "skull-bash",
@@ -2367,7 +2355,6 @@ POKEMONS = [
         "submission",
         "strength",
         "earthquake",
-        "fissure",
         "fire-blast",
         "skull-bash",
         "rock-slide"
@@ -2406,7 +2393,6 @@ POKEMONS = [
         "submission",
         "strength",
         "earthquake",
-        "fissure",
         "fire-blast",
         "skull-bash",
         "rock-slide"
@@ -2445,7 +2431,6 @@ POKEMONS = [
         "submission",
         "strength",
         "earthquake",
-        "fissure",
         "fire-blast",
         "skull-bash",
         "rock-slide"
@@ -2661,7 +2646,6 @@ POKEMONS = [
         "strength",
         "rock-throw",
         "earthquake",
-        "fissure",
         "fire-blast",
         "rock-slide"
       ]
@@ -2699,7 +2683,6 @@ POKEMONS = [
         "strength",
         "rock-throw",
         "earthquake",
-        "fissure",
         "fire-blast",
         "rock-slide"
       ]
@@ -2738,7 +2721,6 @@ POKEMONS = [
         "strength",
         "rock-throw",
         "earthquake",
-        "fissure",
         "fire-blast",
         "rock-slide"
       ]
@@ -2851,7 +2833,6 @@ POKEMONS = [
         "bubble-beam",
         "strength",
         "earthquake",
-        "fissure",
         "psychic",
         "fire-blast",
         "swift",
@@ -2897,7 +2878,6 @@ POKEMONS = [
         "submission",
         "strength",
         "earthquake",
-        "fissure",
         "psychic",
         "fire-blast",
         "swift",
@@ -3413,7 +3393,6 @@ POKEMONS = [
         "strength",
         "rock-throw",
         "earthquake",
-        "fissure",
         "skull-bash",
         "rock-slide"
       ]
@@ -3720,7 +3699,6 @@ POKEMONS = [
         "submission",
         "strength",
         "earthquake",
-        "fissure",
         "bone-club",
         "fire-blast",
         "skull-bash",
@@ -3764,7 +3742,6 @@ POKEMONS = [
         "submission",
         "strength",
         "earthquake",
-        "fissure",
         "bone-club",
         "fire-blast",
         "skull-bash",
@@ -3891,7 +3868,6 @@ POKEMONS = [
         "thunderbolt",
         "thunder",
         "earthquake",
-        "fissure",
         "lick",
         "fire-blast",
         "skull-bash",
@@ -3992,7 +3968,6 @@ POKEMONS = [
         "thunderbolt",
         "thunder",
         "earthquake",
-        "fissure",
         "fire-blast",
         "skull-bash",
         "rock-slide"
@@ -4043,7 +4018,6 @@ POKEMONS = [
         "thunderbolt",
         "thunder",
         "earthquake",
-        "fissure",
         "fire-blast",
         "skull-bash",
         "rock-slide"
@@ -4173,7 +4147,6 @@ POKEMONS = [
         "thunderbolt",
         "thunder",
         "earthquake",
-        "fissure",
         "fire-blast",
         "skull-bash",
         "dizzy-punch",
@@ -4654,7 +4627,6 @@ POKEMONS = [
         "thunderbolt",
         "thunder",
         "earthquake",
-        "fissure",
         "fire-blast",
         "skull-bash",
         "rock-slide"
@@ -4760,7 +4732,6 @@ POKEMONS = [
         "strength",
         "thunderbolt",
         "thunder",
-        "fissure",
         "psychic",
         "waterfall",
         "skull-bash"
@@ -5196,7 +5167,6 @@ POKEMONS = [
         "thunderbolt",
         "thunder",
         "earthquake",
-        "fissure",
         "psychic",
         "lick",
         "fire-blast",
@@ -5516,7 +5486,6 @@ POKEMONS = [
         "thunderbolt",
         "thunder",
         "earthquake",
-        "fissure",
         "psychic",
         "egg-bomb",
         "fire-blast",

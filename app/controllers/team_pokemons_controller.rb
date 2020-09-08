@@ -2,13 +2,24 @@ class TeamPokemonsController < ApplicationController
 
     def create
         team = @current_user.teams.find(team_pokemon_params[:team_id])
-        if team
+        if team && team.team_pokemons.length < 3
             team_pokemon = team.team_pokemons.create(team_pokemon_params)
             team_pokemon.update(shiny: true) if shiny_generator()
             team_pokemon.getMoves()
             render json: { team_pokemon: TeamPokemonSerializer.new(team_pokemon) }, include: '**'
         else
-            render json: { error: "Unable to create pokemon" }, status: :unauthorized
+            render json: { error: "Unable to add pokemon to team" }, status: :unauthorized
+        end
+    end
+
+    def delete
+        team_pokemon = @current_user.team_pokemons.find(params[:id])
+        if team_pokemon
+            team = Team.find(team_pokemon.team_id)
+            team_pokemon.destroy()
+            render json: { team: TeamSerializer.new(team), message: "#{team_pokemon.nickname} was released back into the wild!" }
+        else
+            render json: { error: "Unable to release pokemon" }, status: :unauthorized
         end
     end
 
