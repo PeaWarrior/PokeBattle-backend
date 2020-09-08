@@ -681,7 +681,7 @@ MOVES = [
       "types": "normal",
       "accuracy": 100,
       "damage": "physical",
-      "text": "1st turn: Prepare 2nd turn: Attack"
+      "text": "A strong headbutt."
     },
     {
       "name": "spike-cannon",

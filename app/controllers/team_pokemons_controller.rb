@@ -15,9 +15,9 @@ class TeamPokemonsController < ApplicationController
     def delete
         team_pokemon = @current_user.team_pokemons.find(params[:id])
         if team_pokemon
-            team = Team.find(team_pokemon.team_id)
             team_pokemon.destroy()
-            render json: { team: TeamSerializer.new(team), message: "#{team_pokemon.nickname} was released back into the wild!" }
+            team = Team.find(team_pokemon.team_id)
+            render json: { team: TeamSerializer.new(team), message: "#{team_pokemon.nickname} was released back into the wild!" }, include: '**'
         else
             render json: { error: "Unable to release pokemon" }, status: :unauthorized
         end
