@@ -14,7 +14,6 @@ end
 
 user1 = User.create({username: 'jax', password: '123', password_confirmation: '123'})
 team1 = user1.teams.create(name: 'first team')
-user1.update(activeTeam: 1)
 team1.team_pokemons.create(pokemon_id: 1, nickname: 'bulby', shiny: false)
 team1.team_pokemons.create(pokemon_id: 4, nickname: 'Chary', shiny: false)
 

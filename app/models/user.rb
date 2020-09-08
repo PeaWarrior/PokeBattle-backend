@@ -3,5 +3,5 @@ class User < ApplicationRecord
     has_many :team_pokemons, through: :teams
 
     has_secure_password
-    validates :username, uniqueness: { case_sensitive: false }
+    validates :username, uniqueness: { case_sensitive: false }, presence: true, length: {minimum: 3}
 end
