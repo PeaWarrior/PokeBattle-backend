@@ -1,6 +1,11 @@
 class UsersController < ApplicationController
     skip_before_action :authenticate, only: [:create, :login]
 
+    def index
+        users = User.where(active: [true])
+        render json: users, each_serializer: UserSerializer
+    end
+
     def create
         user = User.create(user_params)
         if user.valid?

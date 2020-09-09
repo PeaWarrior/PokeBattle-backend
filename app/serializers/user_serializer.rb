@@ -1,4 +1,4 @@
 class UserSerializer < ActiveModel::Serializer
-  attributes :username
+  attributes :username, :active
   has_many :teams
 end
