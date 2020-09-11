@@ -4,15 +4,11 @@ class CreateBattles < ActiveRecord::Migration[6.0]
       t.string :room_name
       t.string :status
 
-      t.integer :red_user_id
-      t.string :red_user_name
       t.json :red_team
-      t.integer :red_active_pokemon
+      t.integer :red_active, default: 0
 
-      t.integer :blue_user_id
-      t.string :blue_user_name
       t.json :blue_team
-      t.integer :blue_active_pokemon
+      t.integer :blue_active, default: 0
 
       t.string :turn
       t.string :message

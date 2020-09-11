@@ -5,6 +5,7 @@ Rails.application.routes.draw do
   get '/users', to: 'users#index'
   
   get '/pokemons', to: 'pokemons#index'
+  get '/pokemons/:id', to: 'pokemons#show'
 
   get '/teams', to: 'teams#index'
   post '/teams', to: 'teams#create'
@@ -14,7 +15,10 @@ Rails.application.routes.draw do
   delete '/team_pokemons/:id', to: 'team_pokemons#delete'
 
   get '/battles', to: 'battles#index'
+  get '/currentbattle', to: 'battles#show'
   post '/battles', to: 'battles#create'
+  patch '/join', to: 'battles#join'
+  patch '/fight', to: 'battles#fight'
 
   mount ActionCable.server => '/consumer'
 

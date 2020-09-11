@@ -7,14 +7,8 @@ class PokemonsController < ApplicationController
     end
 
     def show
-        pokemon = Pokemon.find(pokemon_params)
-        render json: pokemon
-    end
-
-    private
-
-    def pokemon_params
-        params.require(:pokemon).permit(:id)
+        pokemon = Pokemon.find(params[:id])
+        render json: pokemon.sprites
     end
 
 end
