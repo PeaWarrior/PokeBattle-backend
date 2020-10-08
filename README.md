@@ -3,7 +3,7 @@
 
 PokeBattle is a Pokemon team builder web application with real-time competitive battling against other users.
 
-This is the Ruby on Rails API for PokeBattle. You can access the Frontend [here](https://github.com/PeaWarrior/PokeBattle-backend).
+This is the Ruby on Rails API for PokeBattle. You can access the Frontend [here](https://github.com/PeaWarrior/PokeBattle-frontend).
 
 
 ## Prerequisites
