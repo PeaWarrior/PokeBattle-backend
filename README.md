@@ -1,24 +1,54 @@
-# README
+# PokeBattle [Backend]
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
 
-Things you may want to cover:
+PokeBattle is a Pokemon team builder web application with real-time competitive battling against other users.
 
-* Ruby version
+This is the Ruby on Rails API for PokeBattle. You can access the Frontend [here](https://github.com/PeaWarrior/PokeBattle-backend).
 
-* System dependencies
 
-* Configuration
+## Prerequisites
 
-* Database creation
+1. Install [Homebrew](https://brew.sh/)
 
-* Database initialization
+    ```console
+   $ /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
+    ```
 
-* How to run the test suite
+2. Install [Ruby](https://www.ruby-lang.org/en/)
 
-* Services (job queues, cache servers, search engines, etc.)
+    ```console
+    $ brew install ruby
+    ```
 
-* Deployment instructions
+3. Install [Rails](https://rubyonrails.org/)
+    ```console
+    $ gem install rails
+    ```
 
-* ...
+4. Install [PostgreSQL](https://www.postgresql.org/)
+
+    ```console
+    $ brew install postgresql
+    ```
+
+## Getting Started
+
+1. Clone this repository and `cd` into the directory
+
+2. Install dependencies
+
+    ```console
+    $ bundle install
+    ```
+    
+3. Initiate the database, migrate and seed
+
+    ```console
+    $ rails db:create db:migrate db:seed
+    ```
+
+4. Start the rails server
+
+    ```console
+    $ rails s -p 3001
+    ```
