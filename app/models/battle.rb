@@ -82,7 +82,7 @@ class Battle < ApplicationRecord
                 red_active_pokemon['stats']['hp'] = 0
                 self.red_active += 1
 
-                if (self.red_active >= self.red_team['pokemons'].length-1)
+                if (self.red_active > self.red_team['pokemons'].length-1)
                     self.status = "closed"
                     self.winner = self.users[1].id
                     winning_team = Team.find(self.blue_team['team_id'])
